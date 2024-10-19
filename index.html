@@ -3,78 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Profile Card</title>
     <style>
         body {
             background-color: #0d0d0d;
-            font-family: Arial, sans-serif;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+             font-style: normal;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
+            margin-left: 40%;
+            margin-top: 200px;
+            text-align: center;
         }
 
-        .profile-card {
+        .profile {
             background-color: #222;
             color: white;
             border-radius: 15px;
             padding: 30px;
-            text-align: center;
+            
             width: 320px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
         }
 
-        .profile-card img {
+        .profile img {
             width: 100px;
             height: 100px;
             border-radius: 50%;
             margin-bottom: 15px;
+            
         }
 
-        .profile-card h2 {
+        .profile h2 {
             margin-bottom: 5px;
+    
         }
 
-        .profile-card p.location {
+        .profile p.location {
             color: #a5ff3d;
             font-size: 0.9em;
             margin: 0;
+      
         }
 
-        .profile-card p.bio {
-            font-style: italic;
+        .profile p.bayo {
             margin: 10px 0;
+  
         }
 
-        .profile-card button {
+        .profile button {
             background-color: #3a3a3a;
             color: white;
             border: none;
             padding: 10px 20px;
             margin: 5px 0;
             border-radius: 5px;
-            cursor: pointer;
             width: 100%;
-            font-size: 1em;
+            font-size: 15px;
         }
 
-        .profile-card button:hover {
+        .profile button:hover {
             background-color: #555;
         }
 
-        .profile-card button:active {
+        .profile button:active {
             background-color: #777;
         }
     </style>
 </head>
 <body>
 
-    <div class="profile-card">
+    <div class="profile">
         <img src="image.jpg" alt="Profile Picture">
         <h2>Edmar T. Bulawin Jr </h2>
         <p class="location">Lawis Alaska Mambaling Cebu City</p>
-        <p class="bio">"MeowMeow"</p>
+        <p class="bio">"MeowMEow."</p>
         <button onclick="document.location='https://github.com/edmartyy'">GitHub</button>
         <button onclick="document.location='https://www.tiktok.com/@___..236'">Tiktok</button>
         <button onclick="document.location='https://www.facebook.com/edmartyy'">Facebook</button>
